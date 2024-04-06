@@ -1,5 +1,7 @@
 package com.company;
 import java.util.Scanner;
+
+import static tasks.FactorialCalc.factorial;
 import static tasks.FindMin.findMin;
 import static tasks.PrimeCheck.isPrime;
 import static tasks.RecursiveAverage.findAverNum;
@@ -31,13 +33,18 @@ public class Main {
                 System.out.println("Average number: "+ average);
             }
         } else if (numTask == 3) {
-            System.out.println("Input ther nunber for check 'Is Prime?'");
+            System.out.println("Input the number for check 'Is Prime?'");
             int n = scanner.nextInt();
             if (isPrime(n)){
                 System.out.println(n + " is Prime number");
             }else {
                 System.out.println(n + " is Composite number");
             }
+        } else if (numTask == 4) {
+            System.out.println("Input the number for calculate factorial of number");
+            int n = scanner.nextInt();
+            int result = factorial(n);
+            System.out.println("Factorial of "+ n + " equal to "+result);
         } else{
             System.out.println("This task not ready");
         }
