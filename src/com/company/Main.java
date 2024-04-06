@@ -2,6 +2,7 @@ package com.company;
 import java.util.Scanner;
 
 import static tasks.FactorialCalc.factorial;
+import static tasks.FindFibonacci.fib;
 import static tasks.FindMin.findMin;
 import static tasks.PrimeCheck.isPrime;
 import static tasks.RecursiveAverage.findAverNum;
@@ -45,6 +46,10 @@ public class Main {
             int n = scanner.nextInt();
             int result = factorial(n);
             System.out.println("Factorial of "+ n + " equal to "+result);
+        } else if (numTask == 5) {
+            System.out.println("Input the number for find Fibonacci number");
+            int n = scanner.nextInt();
+            System.out.println(fib(n) + " is Fibonacci number");
         } else{
             System.out.println("This task not ready");
         }
