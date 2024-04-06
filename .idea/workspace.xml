@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="977fa53f-b891-4172-b5cf-631a4250ce96" name="Changes" comment="completed task num 4">
-      <change afterPath="$PROJECT_DIR$/src/tasks/FindFibonacci.java" afterDir="false" />
+    <list default="true" id="977fa53f-b891-4172-b5cf-631a4250ce96" name="Changes" comment="completed task num 5, created file for task num 6">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tasks/PowerCalc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tasks/PowerCalc.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +76,7 @@
       <workItem from="1712374819794" duration="1274000" />
       <workItem from="1712380224460" duration="4071000" />
       <workItem from="1712410001224" duration="2158000" />
-      <workItem from="1712414004927" duration="5114000" />
+      <workItem from="1712414004927" duration="8484000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -118,7 +118,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712417548973</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="completed task num 5, created file for task num 6">
+      <option name="closed" value="true" />
+      <created>1712425104069</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1712425104069</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,6 +137,7 @@
     <MESSAGE value="completed task num 2, created stucture of files." />
     <MESSAGE value="completed task num 3" />
     <MESSAGE value="completed task num 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="completed task num 4" />
+    <MESSAGE value="completed task num 5, created file for task num 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed task num 5, created file for task num 6" />
   </component>
 </project>

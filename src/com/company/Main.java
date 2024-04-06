@@ -4,6 +4,7 @@ import java.util.Scanner;
 import static tasks.FactorialCalc.factorial;
 import static tasks.FindFibonacci.fib;
 import static tasks.FindMin.findMin;
+import static tasks.PowerCalc.power;
 import static tasks.PrimeCheck.isPrime;
 import static tasks.RecursiveAverage.findAverNum;
 
@@ -25,7 +26,6 @@ public class Main {
             for(int i = 0; i < n; i++){
                 numbers[i] = scanner.nextInt();
             }
-            scanner.close();
             if(numTask == 1){
                 int min = findMin(numbers,numbers.length);
                 System.out.println("Minimun number: "+ min);
@@ -50,8 +50,34 @@ public class Main {
             System.out.println("Input the number for find Fibonacci number");
             int n = scanner.nextInt();
             System.out.println(fib(n) + " is Fibonacci number");
+        } else if (numTask == 6) {
+            scanner.nextLine();
+            boolean check = true;
+            while (check){
+                System.out.println("Input the number and number of power:");
+                String line = scanner.nextLine();
+                if (!line.trim().isEmpty()){
+                    String[] input = line.split("\\s+");
+                    if (input.length == 2){
+                        try{
+                            int a = Integer.parseInt(input[0]);
+                            int n = Integer.parseInt(input[1]);
+                            int resultPow = power(a,n);
+                            System.out.println(resultPow);
+                        }catch (NumberFormatException e){
+                            System.out.println("One of the input data is not integer, please put the correct number!");
+                        }
+                    }else {
+                        System.out.println("Error! Write only two integers");
+                    }
+                }else {
+                    check = false;
+                    System.out.println("Error! Empty field is not eligible!");
+                }
+            }
         } else{
             System.out.println("This task not ready");
         }
+        scanner.close();
     }
 }
