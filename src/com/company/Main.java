@@ -1,6 +1,7 @@
 package com.company;
 import java.util.Scanner;
 import static tasks.FindMin.findMin;
+import static tasks.PrimeCheck.isPrime;
 import static tasks.RecursiveAverage.findAverNum;
 
 public class Main {
@@ -29,7 +30,15 @@ public class Main {
                 double average = findAverNum(numbers, numbers.length);
                 System.out.println("Average number: "+ average);
             }
-        }else{
+        } else if (numTask == 3) {
+            System.out.println("Input ther nunber for check 'Is Prime?'");
+            int n = scanner.nextInt();
+            if (isPrime(n)){
+                System.out.println(n + " is Prime number");
+            }else {
+                System.out.println(n + " is Composite number");
+            }
+        } else{
             System.out.println("This task not ready");
         }
     }
