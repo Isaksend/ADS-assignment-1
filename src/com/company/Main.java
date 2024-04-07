@@ -6,6 +6,7 @@ import static tasks.FindFibonacci.fib;
 import static tasks.FindMin.findMin;
 import static tasks.PowerCalc.power;
 import static tasks.PrimeCheck.isPrime;
+import static tasks.PrintReversed.printReversed;
 import static tasks.RecursiveAverage.findAverNum;
 
 public class Main {
@@ -13,26 +14,33 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Choose task for check:");
         int numTask = scanner.nextInt();
-        if(numTask == 1 || numTask == 2){
+        if(numTask == 1 || numTask == 2 || numTask == 7){
             System.out.print("Input the number of elements in massive:");
             int n = scanner.nextInt();
             if (n<=0){
                 System.out.println("The number of elements in massive must be positive!");
-                scanner.close();
                 return;
             }
-            int[] numbers = new int[n];
-            System.out.println("Input the "+ n + " number value:");
-            for(int i = 0; i < n; i++){
-                numbers[i] = scanner.nextInt();
+            if(numTask == 7){
+                printReversed(n,scanner);
+            }else {
+                int[] numbers = new int[n];
+                System.out.println("Input the "+ n + " number value:");
+                for(int i = 0; i < n; i++){
+                    numbers[i] = scanner.nextInt();
+                }
+                scanner.nextLine();
+                if (numTask == 1) {
+                    int min = findMin(numbers,numbers.length);
+                    System.out.println("Minimun number: "+ min);
+                }   else if (numTask == 2) {
+                    double average = findAverNum(numbers, numbers.length);
+                    System.out.println("Average number: "+ average);
+                }
             }
-            if(numTask == 1){
-                int min = findMin(numbers,numbers.length);
-                System.out.println("Minimun number: "+ min);
-            } else if (numTask == 2) {
-                double average = findAverNum(numbers, numbers.length);
-                System.out.println("Average number: "+ average);
-            }
+
+
+
         } else if (numTask == 3) {
             System.out.println("Input the number for check 'Is Prime?'");
             int n = scanner.nextInt();
@@ -75,7 +83,8 @@ public class Main {
                     System.out.println("Error! Empty field is not eligible!");
                 }
             }
-        } else{
+        }
+        else{
             System.out.println("This task not ready");
         }
         scanner.close();

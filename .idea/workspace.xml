@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="977fa53f-b891-4172-b5cf-631a4250ce96" name="Changes" comment="completed task num 5, created file for task num 6">
+    <list default="true" id="977fa53f-b891-4172-b5cf-631a4250ce96" name="Changes" comment="completed task number 6, add allow put the integers in one line.">
+      <change afterPath="$PROJECT_DIR$/src/tasks/PrintReversed.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tasks/PowerCalc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tasks/PowerCalc.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +42,9 @@
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="2eFoOnKOctYgYL6QrKkp9TyEwzy" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -76,7 +78,8 @@
       <workItem from="1712374819794" duration="1274000" />
       <workItem from="1712380224460" duration="4071000" />
       <workItem from="1712410001224" duration="2158000" />
-      <workItem from="1712414004927" duration="8484000" />
+      <workItem from="1712414004927" duration="8861000" />
+      <workItem from="1712465551520" duration="1644000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -126,7 +129,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712425104069</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="completed task number 6, add allow put the integers in one line.">
+      <option name="closed" value="true" />
+      <created>1712429756956</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1712429756956</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,6 +149,7 @@
     <MESSAGE value="completed task num 3" />
     <MESSAGE value="completed task num 4" />
     <MESSAGE value="completed task num 5, created file for task num 6" />
-    <option name="LAST_COMMIT_MESSAGE" value="completed task num 5, created file for task num 6" />
+    <MESSAGE value="completed task number 6, add allow put the integers in one line." />
+    <option name="LAST_COMMIT_MESSAGE" value="completed task number 6, add allow put the integers in one line." />
   </component>
 </project>
