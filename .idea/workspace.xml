@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="977fa53f-b891-4172-b5cf-631a4250ce96" name="Changes" comment="completed task num 10">
+    <list default="true" id="977fa53f-b891-4172-b5cf-631a4250ce96" name="Changes" comment="added comment for FindMin.java, and define time complexity.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tasks/FindMin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tasks/FindMin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tasks/RecursiveAverage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tasks/RecursiveAverage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +80,7 @@
       <workItem from="1712414004927" duration="8861000" />
       <workItem from="1712465551520" duration="9752000" />
       <workItem from="1712497557626" duration="52000" />
-      <workItem from="1712514427504" duration="2622000" />
+      <workItem from="1712514427504" duration="3154000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -178,7 +178,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712482785319</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="added comment for FindMin.java, and define time complexity.">
+      <option name="closed" value="true" />
+      <created>1712524974702</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1712524974702</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,6 +204,7 @@
     <MESSAGE value="created class DigitChecker.java, completed task num 8." />
     <MESSAGE value="completed task num 9" />
     <MESSAGE value="completed task num 10" />
-    <option name="LAST_COMMIT_MESSAGE" value="completed task num 10" />
+    <MESSAGE value="added comment for FindMin.java, and define time complexity." />
+    <option name="LAST_COMMIT_MESSAGE" value="added comment for FindMin.java, and define time complexity." />
   </component>
 </project>
