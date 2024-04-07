@@ -10,12 +10,12 @@ public class PrintReversed {
         System.out.print(array[index]+" ");
         printArrayReversed(array,index-1);
     }
-    public static void printReversed(int n, Scanner scanner){
+    public static void printReversed(int i, Scanner scanner){
         System.out.print("Input the numbers in single line:");
         scanner.nextLine();
         String[] elements =scanner.nextLine().split("\\s+");
         int[] numbers = new int[elements.length];
-        for (int i = 0; i<elements.length; i++){
+        for ( i = 0; i<elements.length; i++){
             numbers[i] = Integer.parseInt(elements[i]);
         }
         printArrayReversed(numbers,numbers.length-1);
