@@ -1,6 +1,7 @@
 package com.company;
 import java.util.Scanner;
 
+import static tasks.DigitChecker.isNum;
 import static tasks.FactorialCalc.factorial;
 import static tasks.FindFibonacci.fib;
 import static tasks.FindMin.findMin;
@@ -14,6 +15,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Choose task for check:");
         int numTask = scanner.nextInt();
+        scanner.nextLine();
         if(numTask == 1 || numTask == 2 || numTask == 7){
             System.out.print("Input the number of elements in massive:");
             int n = scanner.nextInt();
@@ -38,9 +40,6 @@ public class Main {
                     System.out.println("Average number: "+ average);
                 }
             }
-
-
-
         } else if (numTask == 3) {
             System.out.println("Input the number for check 'Is Prime?'");
             int n = scanner.nextInt();
@@ -83,8 +82,11 @@ public class Main {
                     System.out.println("Error! Empty field is not eligible!");
                 }
             }
-        }
-        else{
+        } else if (numTask == 8) {
+            System.out.println("Input the data in one line! For checking is full digit?");
+            String input = scanner.nextLine();
+            System.out.println(isNum(input)? "Yes":"No");
+        } else{
             System.out.println("This task not ready");
         }
         scanner.close();
