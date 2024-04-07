@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="977fa53f-b891-4172-b5cf-631a4250ce96" name="Changes" comment="a little bit update and optimization">
-      <change afterPath="$PROJECT_DIR$/src/tasks/DigitChecker.java" afterDir="false" />
+    <list default="true" id="977fa53f-b891-4172-b5cf-631a4250ce96" name="Changes" comment="created class DigitChecker.java, completed task num 8.">
+      <change afterPath="$PROJECT_DIR$/src/tasks/BinomCoefficient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
     </list>
@@ -79,7 +79,7 @@
       <workItem from="1712380224460" duration="4071000" />
       <workItem from="1712410001224" duration="2158000" />
       <workItem from="1712414004927" duration="8861000" />
-      <workItem from="1712465551520" duration="6707000" />
+      <workItem from="1712465551520" duration="8306000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -153,7 +153,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712467625998</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="created class DigitChecker.java, completed task num 8.">
+      <option name="closed" value="true" />
+      <created>1712477505318</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1712477505318</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +176,7 @@
     <MESSAGE value="completed task number 6, add allow put the integers in one line." />
     <MESSAGE value="completed task number 7, add allow put the integers in one line." />
     <MESSAGE value="a little bit update and optimization" />
-    <option name="LAST_COMMIT_MESSAGE" value="a little bit update and optimization" />
+    <MESSAGE value="created class DigitChecker.java, completed task num 8." />
+    <option name="LAST_COMMIT_MESSAGE" value="created class DigitChecker.java, completed task num 8." />
   </component>
 </project>

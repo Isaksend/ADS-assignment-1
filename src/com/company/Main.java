@@ -1,6 +1,7 @@
 package com.company;
 import java.util.Scanner;
 
+import static tasks.BinomCoefficient.binomialCoefficient;
 import static tasks.DigitChecker.isNum;
 import static tasks.FactorialCalc.factorial;
 import static tasks.FindFibonacci.fib;
@@ -86,6 +87,17 @@ public class Main {
             System.out.println("Input the data in one line! For checking is full digit?");
             String input = scanner.nextLine();
             System.out.println(isNum(input)? "Yes":"No");
+        } else if (numTask == 9) {
+            System.out.println("Input the n and k for formula:");
+            String input = scanner.nextLine();
+            String[] parts = input.split("\\s+");
+            if (parts.length == 2){
+                int n = Integer.parseInt(parts[0]);
+                int k = Integer.parseInt(parts[1]);
+                System.out.println(binomialCoefficient(n,k));
+            }else {
+                System.out.println("Please enter two integers separated by space!");
+            }
         } else{
             System.out.println("This task not ready");
         }
