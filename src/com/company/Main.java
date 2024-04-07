@@ -5,6 +5,7 @@ import static tasks.BinomCoefficient.binomialCoefficient;
 import static tasks.DigitChecker.isNum;
 import static tasks.FactorialCalc.factorial;
 import static tasks.FindFibonacci.fib;
+import static tasks.FindGCD.GCD;
 import static tasks.FindMin.findMin;
 import static tasks.PowerCalc.power;
 import static tasks.PrimeCheck.isPrime;
@@ -97,6 +98,15 @@ public class Main {
                 System.out.println(binomialCoefficient(n,k));
             }else {
                 System.out.println("Please enter two integers separated by space!");
+            }
+        } else if (numTask == 10) {
+            System.out.println("Input the a and b for find GCD:");
+            String input = scanner.nextLine();
+            String[] values = input.split("\\s+");
+            if (values.length == 2){
+                int a = Integer.parseInt((values[0]));
+                int b = Integer.parseInt((values[1]));
+                System.out.println(GCD(a,b));
             }
         } else{
             System.out.println("This task not ready");
