@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="977fa53f-b891-4172-b5cf-631a4250ce96" name="Changes" comment="added comment for FindMin.java, and define time complexity.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tasks/RecursiveAverage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tasks/RecursiveAverage.java" afterDir="false" />
+    <list default="true" id="977fa53f-b891-4172-b5cf-631a4250ce96" name="Changes" comment="added comments for RecursiveAverage.java, and define time complexity.">
+      <change beforePath="$PROJECT_DIR$/src/tasks/PrimeCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tasks/PrimeCheck.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +79,7 @@
       <workItem from="1712414004927" duration="8861000" />
       <workItem from="1712465551520" duration="9752000" />
       <workItem from="1712497557626" duration="52000" />
-      <workItem from="1712514427504" duration="3154000" />
+      <workItem from="1712514427504" duration="3468000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -186,7 +185,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712524974702</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="added comments for RecursiveAverage.java, and define time complexity.">
+      <option name="closed" value="true" />
+      <created>1712525512503</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1712525512503</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,6 +212,7 @@
     <MESSAGE value="completed task num 9" />
     <MESSAGE value="completed task num 10" />
     <MESSAGE value="added comment for FindMin.java, and define time complexity." />
-    <option name="LAST_COMMIT_MESSAGE" value="added comment for FindMin.java, and define time complexity." />
+    <MESSAGE value="added comments for RecursiveAverage.java, and define time complexity." />
+    <option name="LAST_COMMIT_MESSAGE" value="added comments for RecursiveAverage.java, and define time complexity." />
   </component>
 </project>
