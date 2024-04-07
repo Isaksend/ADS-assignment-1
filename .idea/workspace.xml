@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="977fa53f-b891-4172-b5cf-631a4250ce96" name="Changes" comment="completed task num 9">
-      <change afterPath="$PROJECT_DIR$/src/tasks/FindGCD.java" afterDir="false" />
+    <list default="true" id="977fa53f-b891-4172-b5cf-631a4250ce96" name="Changes" comment="completed task num 10">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tasks/FindMin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tasks/FindMin.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +78,9 @@
       <workItem from="1712380224460" duration="4071000" />
       <workItem from="1712410001224" duration="2158000" />
       <workItem from="1712414004927" duration="8861000" />
-      <workItem from="1712465551520" duration="9675000" />
+      <workItem from="1712465551520" duration="9752000" />
+      <workItem from="1712497557626" duration="52000" />
+      <workItem from="1712514427504" duration="2622000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -169,7 +170,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712480620318</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="completed task num 10">
+      <option name="closed" value="true" />
+      <created>1712482785319</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1712482785319</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,6 +195,7 @@
     <MESSAGE value="a little bit update and optimization" />
     <MESSAGE value="created class DigitChecker.java, completed task num 8." />
     <MESSAGE value="completed task num 9" />
-    <option name="LAST_COMMIT_MESSAGE" value="completed task num 9" />
+    <MESSAGE value="completed task num 10" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed task num 10" />
   </component>
 </project>
