@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="977fa53f-b891-4172-b5cf-631a4250ce96" name="Changes" comment="added comments for PrintReversed.java, and define time complexity.">
-      <change beforePath="$PROJECT_DIR$/src/tasks/DigitChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tasks/DigitChecker.java" afterDir="false" />
-    </list>
+    <list default="true" id="977fa53f-b891-4172-b5cf-631a4250ce96" name="Changes" comment="added comments for DigitChecker.java, and define time complexity." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,7 +81,7 @@
       <workItem from="1712557753974" duration="1340000" />
       <workItem from="1712560003127" duration="556000" />
       <workItem from="1712562394107" duration="204000" />
-      <workItem from="1712564252428" duration="736000" />
+      <workItem from="1712564252428" duration="1075000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -237,7 +235,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712564923821</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="added comments for DigitChecker.java, and define time complexity.">
+      <option name="closed" value="true" />
+      <created>1712565300724</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1712565300724</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,6 +268,7 @@
     <MESSAGE value="added comments for FindFibonacci.java, and define time complexity." />
     <MESSAGE value="added comments for PowerCalc.java, and define time complexity." />
     <MESSAGE value="added comments for PrintReversed.java, and define time complexity." />
-    <option name="LAST_COMMIT_MESSAGE" value="added comments for PrintReversed.java, and define time complexity." />
+    <MESSAGE value="added comments for DigitChecker.java, and define time complexity." />
+    <option name="LAST_COMMIT_MESSAGE" value="added comments for DigitChecker.java, and define time complexity." />
   </component>
 </project>
