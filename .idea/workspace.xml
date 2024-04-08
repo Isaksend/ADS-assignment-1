@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="977fa53f-b891-4172-b5cf-631a4250ce96" name="Changes" comment="added comments for FindFibonacci.java, and define time complexity." />
+    <list default="true" id="977fa53f-b891-4172-b5cf-631a4250ce96" name="Changes" comment="added comments for PowerCalc.java, and define time complexity.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tasks/PrintReversed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tasks/PrintReversed.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,7 +80,11 @@
       <workItem from="1712414004927" duration="8861000" />
       <workItem from="1712465551520" duration="9752000" />
       <workItem from="1712497557626" duration="52000" />
-      <workItem from="1712514427504" duration="4194000" />
+      <workItem from="1712514427504" duration="4406000" />
+      <workItem from="1712557753974" duration="1340000" />
+      <workItem from="1712560003127" duration="556000" />
+      <workItem from="1712562394107" duration="204000" />
+      <workItem from="1712564252428" duration="429000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -215,7 +222,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712526391309</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="added comments for PowerCalc.java, and define time complexity.">
+      <option name="closed" value="true" />
+      <created>1712526619338</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1712526619338</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,6 +253,7 @@
     <MESSAGE value="added comments for PrimeCheck.java, and define time complexity." />
     <MESSAGE value="added comments for FactorialCalc.java, and define time complexity." />
     <MESSAGE value="added comments for FindFibonacci.java, and define time complexity." />
-    <option name="LAST_COMMIT_MESSAGE" value="added comments for FindFibonacci.java, and define time complexity." />
+    <MESSAGE value="added comments for PowerCalc.java, and define time complexity." />
+    <option name="LAST_COMMIT_MESSAGE" value="added comments for PowerCalc.java, and define time complexity." />
   </component>
 </project>
