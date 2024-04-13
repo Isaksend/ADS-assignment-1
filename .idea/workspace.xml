@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="977fa53f-b891-4172-b5cf-631a4250ce96" name="Changes" comment="added comments for FindGCD.java, and define time complexity.">
-      <change afterPath="$PROJECT_DIR$/def-task/def-task.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/def-task/src/taskDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="977fa53f-b891-4172-b5cf-631a4250ce96" name="Changes" comment="added comments for FindGCD.java, and define time complexity." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -99,7 +94,7 @@
       <workItem from="1712562394107" duration="204000" />
       <workItem from="1712564252428" duration="2297000" />
       <workItem from="1712964275608" duration="143000" />
-      <workItem from="1712988451378" duration="2134000" />
+      <workItem from="1712988451378" duration="2362000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
