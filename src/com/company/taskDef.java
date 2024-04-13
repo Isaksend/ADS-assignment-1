@@ -1,3 +1,5 @@
+package com.company;
+
 public class taskDef {
     public static void main(String[] args) {
         String s = "delete";
